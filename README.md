@@ -1,6 +1,6 @@
 <div align="center">
 
-# InstaFollowKit
+# Insta Follow Kit
 
 ### Instagram Takip Analiz Aracı
 
