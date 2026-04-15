@@ -1,15 +1,17 @@
 <div align="center">
 
-# Insta Follow Kit
+# InstaFollowKit
 
 ### Instagram Takip Analiz Aracı
 
-[![Sürüm](https://img.shields.io/badge/sürüm-v1.0.0-ea580c?style=flat-square)](https://github.com/bahadir-b-bekdemir/instafollowkit)
-[![Dil](https://img.shields.io/badge/dil-JavaScript-f7df1e?style=flat-square&logo=javascript)](https://github.com/bahadir-b-bekdemir/instafollowkit)
-[![Platform](https://img.shields.io/badge/platform-Tarayıcı%20Konsolu-4ade80?style=flat-square)](https://github.com/bahadir-b-bekdemir/instafollowkit)
+[![Sürüm](https://img.shields.io/badge/sürüm-v1.0.0-ea580c?style=flat-square)](https://github.com/bahadir-b-bekdemir/insta-follow-kit)
+[![Dil](https://img.shields.io/badge/dil-JavaScript-f7df1e?style=flat-square&logo=javascript)](https://github.com/bahadir-b-bekdemir/insta-follow-kit)
+[![Platform](https://img.shields.io/badge/platform-Tarayıcı%20Konsolu-4ade80?style=flat-square)](https://github.com/bahadir-b-bekdemir/insta-follow-kit)
 [![Lisans](https://img.shields.io/badge/lisans-MIT-60a5fa?style=flat-square)](LICENSE)
 
 **Tarayıcı konsoluna bir kez yapıştırın. Takip listenizi tam gücüyle analiz edin.**
+
+**Depo:** [github.com/bahadir-b-bekdemir/insta-follow-kit](https://github.com/bahadir-b-bekdemir/insta-follow-kit)
 
 </div>
 
@@ -91,7 +93,7 @@ Araç sıfırdan tasarlanmış, bağımsız bir JavaScript IIFE'dir — framewor
 
 ## Kurulum
 
-1. [`insta-follow-kit.js`](insta-follow-kit.js) dosyasının **tamamını** kopyalayın (GitHub’da dosyayı açıp **Raw** görünümünden `Ctrl+A` → `Ctrl+C` en pratik yöntemdir).
+1. [`insta-follow-kit.js`](insta-follow-kit.js) dosyasının **tamamını** kopyalayın. GitHub’da [depo kökündeki dosyayı](https://github.com/bahadir-b-bekdemir/insta-follow-kit/blob/main/insta-follow-kit.js) açıp **Raw** görünümünden `Ctrl+A` → `Ctrl+C` en pratik yöntemdir (veya ham bağlantı: `https://github.com/bahadir-b-bekdemir/insta-follow-kit/raw/main/insta-follow-kit.js`).
 2. Tarayıcıda `https://www.instagram.com` adresine gidin ve **oturum açın** (ana sayfa yeterlidir; profil sayfasında olmanız şart değildir).
 3. **Geliştirici konsolunu** açın:
 
@@ -244,7 +246,7 @@ Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 Yazar: **Bahadır B. Bekdemir**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bahadir-b-bekdemir/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bahadir-b-bekdemir)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bahadir-b-bekdemir/insta-follow-kit)
 
 *InstaFollowKit v1.0.0*
 
