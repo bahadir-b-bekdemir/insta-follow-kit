@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="img/takipradar-banner.png" alt="InstaFollowKit Banner" width="100%">
-
-<br/>
-
 # InstaFollowKit
 
 ### Instagram Takip Analiz Aracı
@@ -14,8 +10,6 @@
 [![Lisans](https://img.shields.io/badge/lisans-MIT-60a5fa?style=flat-square)](LICENSE)
 
 **Tarayıcı konsoluna bir kez yapıştırın. Takip listenizi tam gücüyle analiz edin.**
-
-[LinkedIn →](https://www.linkedin.com/in/bahadir-b-bekdemir/) · [Bu depo →](https://github.com/bahadir-b-bekdemir/instafollowkit)
 
 </div>
 
@@ -30,7 +24,6 @@
 - [Teknik yapı](#teknik-yapı)
 - [Güvenlik ve sorumluluk](#güvenlik-ve-sorumluluk)
 - [Sık sorulan sorular](#sık-sorulan-sorular)
-- [Katkıda bulunma](#katkıda-bulunma)
 - [Lisans](#lisans)
 
 ---
@@ -237,16 +230,6 @@ insta-follow-kit.js
 **Geçmiş kayboldu.** `localStorage` temizlenirse silinir; önemli listeleri düzenli JSON/CSV ile yedekleyin.
 
 **Araç açılmıyor.** Instagram oturumunuzun geçerli olduğundan emin olun; `F5` ile sayfayı yenileyip betiği tekrar yapıştırın.
-
----
-
-## Katkıda bulunma
-
-1. Depoyu fork’layın  
-2. Dal oluşturun: `git checkout -b ozellik/yeni-ozellik`  
-3. Commit: `git commit -m 'feat: açıklama'`  
-4. Push: `git push origin ozellik/yeni-ozellik`  
-5. Pull Request açın  
 
 ---
 
