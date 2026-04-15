@@ -20,9 +20,10 @@
 ## İçindekiler
 
 - [Nedir?](#nedir)
+- [Tanıtıcı görseller](#tanıtıcı-görseller)
 - [Özellikler](#özellikler)
 - [Kurulum](#kurulum)
-- [Kullanım](#kullanım) — tarama, liste, toplu işlem, HD, beyaz liste, geçmiş, ayarlar, dışa aktarma
+- [Kullanım](#kullanım)
 - [Teknik yapı](#teknik-yapı)
 - [Güvenlik ve sorumluluk](#güvenlik-ve-sorumluluk)
 - [Sık sorulan sorular](#sık-sorulan-sorular)
@@ -38,6 +39,48 @@ Araç sıfırdan tasarlanmış, bağımsız bir JavaScript IIFE'dir — framewor
 
 **Platform:** `www.instagram.com` · masaüstü tarayıcı · oturum açık sekme  
 **Mobil tarayıcılar desteklenmez.**
+
+---
+
+## Tanıtıcı görseller
+
+Aşağıdaki kareler, araç açıldıktan sonra hangi sekmede ne yapıldığını özetler. Görseller örnek oturuma aittir.
+
+### Başlangıç
+
+Ana ekranda **TARA** ile taramayı başlatırsınız. Üst bölümde güvenlik skoru, saatlik/günlük kalan işlem hakları ve toplam işlem sayısı gibi özetler görünür; alt menüden diğer modüllere geçilir.
+
+![Başlangıç — TARA ve özet kartları](img/ifk-baslangic.png)
+
+### Tarama (liste analizi)
+
+Tarama tamamlandıktan sonra **Tarama** sekmesinde takip etmeyenler, karşılıklılar, takipçiler ve beyaz liste gibi sekmeler; arama, sıralama, satır filtreleri ve toplu seçim ile **JSON** / **CSV** dışa aktarma kullanılır.
+
+![Tarama — sekmeli liste ve toplu işlem](img/ifk-tarama.png)
+
+### Bırak (takip bırakma / işlem ekranı)
+
+**Bırak** sekmesinde seçilen hesaplar için takip bırakma (veya ilgili işlem) yürütülür. Tabloda her satır için durum, kullanıcı adı, işlem türü ve ilerleme görünür; tamamlanınca özet (başarılı / başarısız) yan panelde yer alır.
+
+![Bırak — işlem tamamlandı özeti](img/ifk-birak.png)
+
+### Geçmiş
+
+**Geçmiş** sekmesinde yapılan işlemler (ör. takip bırakma, takipçi kaldırma) tarih ve saat ile listelenir; arama ve **Temizle** ile kayıtlar yönetilir.
+
+![Geçmiş — işlem kayıtları](img/ifk-gecmis.png)
+
+### Ayarlar — tema ve özet
+
+**Ayarlar**da tema rengi seçilir; güvenlik anahtarı ile gelişmiş zamanlama paneli açılır/kapanır. Orta alanda aracın kısa tanımı ve yazar bağlantıları bulunur.
+
+![Ayarlar — tema ve proje özeti](img/ifk-ayarlar-ozet.png)
+
+### Ayarlar — zamanlama ve güvenlik
+
+Aynı sekmede, güvenlik ayarları açıkken **zamanlama** (istek aralıkları, molalar), **güvenlik limitleri** (saatlik/günlük üst sınır) ve **akıllı davranış** (insan benzeri gecikme, hata durumunda duraklatma) düzenlenir.
+
+![Ayarlar — zamanlama ve güvenlik limitleri](img/ifk-ayarlar-guvenlik.png)
 
 ---
 
