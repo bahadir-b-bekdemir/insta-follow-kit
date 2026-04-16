@@ -40,16 +40,6 @@ Araç sıfırdan tasarlanmış, bağımsız bir JavaScript IIFE'dir — framewor
 
 ---
 
-## Tanıtıcı görseller
-
-Aşağıdaki kareler, araç açıldıktan sonra hangi sekmede ne yapıldığını özetler. Görseller örnek oturuma aittir.
-
-### Bileşik tanıtım görseli
-
-Tek görselde tüm ana ekranlar (3×2 düzen, koyu tema ve turuncu vurgu ile). Windows’ta yeniden üretmek için: `powershell -ExecutionPolicy Bypass -File scripts/build-promo-image.ps1`
-
-![InstaFollowKit — ekran özeti posteri](img/instafollowkit-tanitim.png)
-
 ### Başlangıç
 
 Ana ekranda **TARA** ile taramayı başlatırsınız. Üst bölümde güvenlik skoru, saatlik/günlük kalan işlem hakları ve toplam işlem sayısı gibi özetler görünür; alt menüden diğer modüllere geçilir.
